@@ -8,6 +8,9 @@ class ReportsController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Reports/Index');
+
+
+      $data = ['fixed'];
+      return Inertia::render('Reports/Index',['data'=>$data]);
     }
 }
