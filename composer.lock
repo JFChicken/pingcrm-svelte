@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "669badae23389c95a5f7e1890b965ae9",
+    "content-hash": "54fb1db9e8d34de295f3ed45035617f4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1708,6 +1708,54 @@
                 }
             ],
             "time": "2021-01-18T20:58:21+00:00"
+        },
+        {
+            "name": "mathieutu/laravel-json-syncer",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mathieutu/laravel-json-syncer.git",
+                "reference": "c84c80332a93b7fe4ed0d2a20515244bd3986d89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mathieutu/laravel-json-syncer/zipball/c84c80332a93b7fe4ed0d2a20515244bd3986d89",
+                "reference": "c84c80332a93b7fe4ed0d2a20515244bd3986d89",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/database": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.13",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "MathieuTu\\JsonSyncer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathieu TUDISCO",
+                    "email": "oss@mathieutu.dev"
+                }
+            ],
+            "description": "Export and import your Eloquent models to/from JSON",
+            "support": {
+                "issues": "https://github.com/mathieutu/laravel-json-syncer/issues",
+                "source": "https://github.com/mathieutu/laravel-json-syncer/tree/1.4.0"
+            },
+            "time": "2021-03-14T17:40:21+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -7689,7 +7737,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0",
+        "php": "^7.4|^8.0",
         "ext-exif": "*",
         "ext-gd": "*"
     },

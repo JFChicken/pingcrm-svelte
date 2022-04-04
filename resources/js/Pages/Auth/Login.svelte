@@ -2,12 +2,11 @@
   import { useForm } from '@inertiajs/inertia-svelte'
   import { route } from '@/utils'
   import LoadingButton from '@/Shared/LoadingButton.svelte'
-  import Logo from '@/Shared/Logo.svelte'
   import TextInput from '@/Shared/TextInput.svelte'
 
   let form = useForm({
-    email: 'johndoe@example.com',
-    password: 'secret',
+    email: '',
+    password: '',
     remember: false,
   })
 
@@ -17,12 +16,11 @@
 </script>
 
 <svelte:head>
-  <title>Login - Ping CRM</title>
+  <title>Login</title>
 </svelte:head>
 
 <div class="p-6 bg-indigo-800 min-h-screen flex justify-center items-center">
   <div class="w-full max-w-md">
-    <Logo class="block mx-auto w-full max-w-xs fill-white" height="50" />
     <form
       class="mt-8 bg-white rounded-lg shadow-xl overflow-hidden"
       on:submit|preventDefault={login}>
