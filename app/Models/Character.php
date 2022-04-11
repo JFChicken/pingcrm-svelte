@@ -23,4 +23,11 @@ class Character extends Model
     'stats' => 'array',
   ];
 
+  public function skill()
+  {
+    return $this->belongsToMany(Skills::class)
+      ->withPivot('character_skill_stats')
+      ->withTimestamps();
+  }
+
 }

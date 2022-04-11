@@ -20,6 +20,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+      /*
+       * New seeders will follow this style of just being added to by call and seeder and not just added
+       * to this ever inflating file
+       */
+      $this->call([
+        SkillsSeeder::class,
+      ]);
+
+
+
+
         $account = Account::create(['name' => 'Acme Corporation']);
 
         $user = User::factory()->create([
@@ -45,7 +56,6 @@ class DatabaseSeeder extends Seeder
 
           $contact->name = $characterName;
           $contact->save();
-
         });
 
     }

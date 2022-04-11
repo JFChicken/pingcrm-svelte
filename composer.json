@@ -9,6 +9,7 @@
         "ext-exif": "*",
         "ext-gd": "*",
         "fakerphp/faker": "^1.9.1",
+      "andrefigueira/blog-article-faker": "dev-master",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -27,6 +28,12 @@
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
     },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/JFChicken/BlogArticleFaker"
+    }
+  ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",

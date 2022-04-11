@@ -29,7 +29,6 @@ class CharacterFactory extends Factory
     return [
       'name' => $this->faker->name(),
       'stats' => $stats,
-      'skills'=>
       //
     ];
   }
