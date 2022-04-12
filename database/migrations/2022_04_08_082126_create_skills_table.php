@@ -24,7 +24,7 @@ class CreateSkillsTable extends Migration
       $table->string('category')->default($faker->currencyCode);
       $table->text('description')->default('non descriptive');
       $table->tinyInteger('subSkill')->nullable();
-      $table->json('bonuses');
+      $table->json('bonuses')->nullable();
       $table->unsignedTinyInteger('base')->default(0);
       $table->unsignedTinyInteger('bonus')->default(5);
 
