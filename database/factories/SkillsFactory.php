@@ -40,7 +40,7 @@ class SkillsFactory extends Factory
             //
           'name' => $faker->title,
           'category' => $faker->currencyCode,
-          'description'=> $faker->articleTitle,
+//          'description'=> $faker->articleTitle,
           'bonuses'=>json_encode($stats),
           'base'=>rand(1,85),
           'bonus'=>rand(3,5),
