@@ -26,6 +26,7 @@
     "prettier-plugin-svelte": "^1.2.1",
     "resolve-url-loader": "^3.1.0",
     "svelte": "3.40.0",
+    "svelte-kanban": "^0.0.952",
     "svelte-loader": "^3.1.2",
     "tailwindcss": "^2.2.19",
     "vue-template-compiler": "^2.6.12"
