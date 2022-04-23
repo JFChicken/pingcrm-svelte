@@ -41,7 +41,7 @@ class User extends Authenticatable
 
     public function isDemoUser()
     {
-        return $this->email === 'johndoe@example.com';
+        return $this->email === 'jc@example.com';
     }
 
     public function scopeOrderByName($query)
